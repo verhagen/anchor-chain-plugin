@@ -1,0 +1,7 @@
+<!--
+  This view is used to render the installed plugins page.
+-->
+<div>
+  Adds some links to the sidebar at every build. The data are obtained from
+  a user selected file in a working directory. 
+</div>
