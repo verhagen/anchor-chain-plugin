@@ -7,7 +7,7 @@
   </parent>
 
   <artifactId>AnchorChain</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>hpi</packaging>
   <name>AnchorChain</name>
   <description>Adds links from a text file to sidebar on each build</description>
