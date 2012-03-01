@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.452</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>1.399</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 
   <artifactId>AnchorChain</artifactId>
@@ -16,8 +16,16 @@
         <developer>
             <id>direvius</id>
             <name>Alexey Lavrenuke</name>
+            <email>direvius@gmail.com</email>
         </developer>
     </developers>
+
+    <scm>
+        <connection>scm:git:ssh://github.com/direvius/AnchorChain.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/direvius/AnchorChain.git</developerConnection>
+        <url>https://github.com/direvius/AnchorChain</url>
+    </scm>
+    
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
     <repository>
@@ -32,5 +40,4 @@
       <url>http://maven.glassfish.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
-    <name>AnchorChain</name>
 </project>
